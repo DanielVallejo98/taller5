@@ -13,7 +13,6 @@ features:
   - Customer_Age
   - Total_Amt_Chng_Q4_Q1
   - Total_Relationship_Count
-  - Total_Revolving_Bal
   - Total_Ct_Chng_Q4_Q1
   - Total_Trans_Ct
   - Total_Trans_Amt
@@ -31,6 +30,7 @@ temp_features:
  - Credit_Limit
  - Avg_Open_To_Buy
  - Avg_Utilization_Ratio
+ - Total_Revolving_Bal
 
 # pipelines
 pipeline_name: modelo-abandono
